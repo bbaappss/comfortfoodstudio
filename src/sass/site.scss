@@ -1,0 +1,39 @@
+@import 'colors';
+@import 'text/*';
+@import 'layout/*';
+@import 'modules/*';
+
+
+img {
+    display: block;
+}
+
+.helping-hand {
+    transform: rotate(35deg) translateX(-25px);
+    margin: 47px auto 30px;
+    display: block;
+}
+
+.header {
+    align-items: center;
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+    padding-bottom: 36px;
+    padding-top: 36px;
+    max-width: 1000px;
+    margin: 24px auto;
+
+    img {
+        max-width: 100px;
+    }
+}
+
+h1 {
+    font-size: 56px;
+}
+
+p {
+    font-size: 36px;
+    line-height: 1.6;
+}
