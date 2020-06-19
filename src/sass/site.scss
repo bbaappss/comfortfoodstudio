@@ -45,3 +45,15 @@ h1 {
 }
 
 a, a:visited { color: black; }
+
+.stream-container {
+    display: block;
+    margin: 0 auto;
+    max-width: 90%;
+}
+
+@media (min-width: 768px) {
+    .stream-container {
+        max-width: 60%;
+    }
+}
