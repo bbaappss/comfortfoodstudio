@@ -351,6 +351,10 @@ img {
   width: 60%;
   max-width: 100%; }
 
+@media (min-width: 1024px) {
+  .logo {
+    width: 30%; } }
+
 h1 {
   font-weight: 200; }
 
