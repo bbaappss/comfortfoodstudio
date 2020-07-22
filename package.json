@@ -53,5 +53,8 @@
     "last 2 versions",
     "> 1%",
     "ie >= 10"
-  ]
+  ],
+  "dependencies": {
+    "gulp-rename": "^2.0.0"
+  }
 }
